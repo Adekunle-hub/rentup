@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [
     tailwindcss()
   ],
-  base:"/RentUp",
+  base:"/",
+  build: {
+    assetsDir: 'assets',  // Ensures images go to `/dist/assets/`
+  }
 })

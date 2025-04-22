@@ -8,7 +8,7 @@ const Header = () => {
     <header header className="text-black  font-medium fixed z-10 w-full ">
       <section className=" mx-auto w-[100%] lg:w-[90%] bg-white px-1 pr-[2rem] sm:px-2 lg:px-3 flex flex-wrap items-center justify-between py-4">
         <div className='ml-10 w-[17%] '>
-          <img className="w-[90%]  " src='../src/assets/logo/logo (2).png' alt="logo-image"/>
+          <img className="w-[90%]  " src='./assets/logo/logo (2).png' alt="logo-image"/>
         </div>
         <div className="hidden md:flex w-[50vw] justify-between text-sm sm:text-base">
           {["Home", "About", "Services", "Blog", "Pricing", "Contact"].map((item) =>{
