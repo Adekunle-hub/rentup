@@ -8,6 +8,7 @@ export default defineConfig({
   ],
   base:"/RentUp",
   build: {
-    assetsDir: 'assets',  // Ensures images go to `/dist/assets/`
+    outDir: 'dist',
+    emptyOutDir: true,
   }
 })
