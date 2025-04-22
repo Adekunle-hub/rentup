@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     tailwindcss()
   ],
-  base:"/RentUp",
+  base:"./",
   build: {
     outDir: 'dist',
     emptyOutDir: true,
