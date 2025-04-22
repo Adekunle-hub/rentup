@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",
@@ -27,10 +27,9 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
-    "vite": "^6.2.0",
-    "homepage": "https://github.com/Adekunle-hub/RentUp.git"
+    "homepage": "https://github.com/Adekunle-hub/RentUp.git",
+    "vite": "^6.2.0"
   }
-  
 }
-
