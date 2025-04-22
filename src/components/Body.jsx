@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaSearch } from 'react-icons/fa'
+import { FaSearch } from 'react-icons/fa';
+
 
 const Body = () => {
 
@@ -24,7 +25,9 @@ const Body = () => {
    return (
     
     <section className=" overflow-hidden relative h-[100dvh] bg-cover bg-center"
-      style = {{backgroundImage : "url('../src/assets/images/banner (2).png')"}}>
+      style = {{
+      backgroundImage: `url("../../public/banner (2).png")`
+      }}>
       <div className="absolute inset-0 flex flex-col  mt-[20dvh] sm:mt-[30dvh] items-center " >
         <h1 className='font-bold w-[90%]  sm:w-[60%]  md:w-[40%] xl:w-[37%] text-sm-20  text-center text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
         <p className='text-white text-center text-base lg:text-xl mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>

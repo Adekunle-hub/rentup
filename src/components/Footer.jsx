@@ -1,10 +1,11 @@
 import React from 'react'
+import whiteLogoImage from '../../public/logo-light (2).png'
 
 const Footer = () => {
   return (
     <>
      <fieldset className='mt-[10vh]  '>
-        <main className='bg-[#27AE60] w-[100vw] '>
+        <main className='bg-[#27AE60] max-w-[100%] '>
           <div className='w-[80%] py-[2rem] items-start max-w-full gap-y-3 flex-col sm:flex-row flex justify-between mx-auto  sm:items-center'>
               <div>
                 <h1 className='sm:text-4xl  text-2xl font-bold text-white'>Do You Have Questions?</h1>
@@ -16,18 +17,18 @@ const Footer = () => {
         <fieldset className='bg-[#1d2636] '>
         <section className=' flex sm:grid flex-wrap sm:grid-cols-2 sm:gap-[4rem] items-center sm:w-[90%] lg:w-[80%] justify-between w-[80%] mx-auto'>
           <article >
-            <img className="w-[20%] sm:w-[30%] text-white mt-[3rem] " src='../src/assets/logo/logo (2).png' alt="logo-image"/>
+            <img className="w-[20%] sm:w-[30%] text-white mt-[3rem] " src={whiteLogoImage} alt="logo-image"/>
             <h2 className='text-white sm:text-2xl font-semibold'>Do You Need Help With Anything?</h2>
             <p className='text-gray-400 mt-[1rem]'>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
-            <div className='flex items-center gap-3 mt-[2rem]'>
-              <input className='bg-white px-4 py-2  rounded-md' placeholder='Email Address' />
-              <button className=' px-4 py-2 rounded-md bg-[#27AE60] text-white'>Subscribe</button>
+            <div className='flex items-center w-[80%] sm:w-[100%] sm:gap-3 gap-1 mt-[2rem]'>
+              <input className='bg-white sm:px-4 px-2 py-2  rounded-md' placeholder='Email Address' />
+              <button className=' sm:px-4 px-2 py-2 rounded-md bg-[#27AE60] text-white'>Subscribe</button>
             </div>
           </article>
-          <article className='flex gap-[1rem] sm:justify-between sm:gap-[1.5rem] pb-[2rem] pt-[4rem] gap-y-[3rem] flex-col-3'>
-            <div className='flex  flex-col'>
-              <h3 className='text-white font-semibold mb-[1rem]'>LAYOUTS</h3>
-              <ul className='text-gray-400 sm:text-base text-sm flex flex-col gap-[1rem]'>
+          <article className='flex w-[100%] gap-[0.5rem] sm:justify-between sm:gap-[1.5rem] pb-[2rem] pt-[4rem] gap-y-[3rem] flex-col-3'>
+            <div className='flex flex-col'>
+              <h3 className='text-white text-sm  font-semibold mb-[1rem]'>LAYOUTS</h3>
+              <ul className='text-gray-400 sm:text-base text-sm flex flex-col gap-y-[1rem]'>
                 <li>Home Page</li>
                 <li>About Page</li>
                 <li>Service Page</li>
@@ -37,8 +38,8 @@ const Footer = () => {
               </ul>
             </div>
             <div className='flex items-center flex-col'>
-              <h3 className='text-white font-semibold mb-[1rem]'>ALL SECTIONS</h3>
-              <ul className='text-gray-400 sm:text-base text-sm flex flex-col gap-[1rem]'>
+              <h3 className='text-white text-sm   font-semibold mb-[1rem]'>ALL SECTIONS</h3>
+              <ul className='text-gray-400 sm:text-base text-sm flex flex-col gap-y-[1rem]'>
                 <li> Headers</li>
                 <li> Features</li>
                 <li>Attractive</li>
@@ -49,8 +50,8 @@ const Footer = () => {
 
             </div>
             <div className='flex items-center flex-col'>
-              <h3 className='text-white font-semibold mb-[1rem]'>ALL SECTIONS</h3>
-              <ul className='text-gray-400 text-sm sm:text-base flex flex-col gap-[1rem]'>
+              <h3 className='text-white text-sm  font-semibold mb-[1rem]'>ALL SECTIONS</h3>
+              <ul className='text-gray-400 text-sm sm:text-base flex flex-col gap-y-[1rem]'>
                 <li> Headers</li>
                 <li> Features</li>
                 <li>Attractive</li>

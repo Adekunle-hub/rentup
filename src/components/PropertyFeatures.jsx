@@ -1,33 +1,34 @@
 import React from 'react'
 
+
 const  PropertyFeatures = () => {
   const propertyTypes = [{
     id:1,
-    propertyImage: './src/assets/svg/h1.png',
+    propertyImage:  "../../public/h1.png",
     propertyText: "Family House",
     propertyContent: "122 Property"
   },
   {
     id:2,
-    propertyImage: './src/assets/svg/h2.png',
+    propertyImage: "../../public/h2.png",
     propertyText: "House & Villa",
     propertyContent: "155 Property"
   },
   {
     id:3,
-    propertyImage: './src/assets/svg/h3.png',
+    propertyImage: "../../public/h3.png",
     propertyText: "Apartment",
     propertyContent: "300 Property"
   },
   {
     id:4,
-    propertyImage: './src/assets/svg/h4.png',
+    propertyImage: "../../public/h4.png",
     propertyText: "Office & Studio",
     propertyContent: "80 Property"
   },
   {
     id:5,
-    propertyImage: './src/assets/svg/h6.png',
+    propertyImage:"../../public/h6.png",
     propertyText: "Villa & Condo",
     propertyContent: "80 Property"
   },
