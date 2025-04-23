@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCheckCircle, FaMapMarkerAlt, FaFacebook, FaLinkedin,FaTwitter, FaInstagram, FaPhoneAlt, FaEnvelope} from 'react-icons/fa'
 
-import agentsData from '../AgentsData'
+import agentsData from '../AgentsData.jsx'
 
 const Agents = () => {
   return (

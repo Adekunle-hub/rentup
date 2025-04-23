@@ -1,37 +1,40 @@
+
+
+
 const locationsData = [
   {
   id:1,
-  img: "../public/city-1.png",
+  img: "/city-1.png",
   location: 'New Orleans, Louisiana',
   explore: "12 Villas 7 Offices 10 Apartments"
 },
 {
   id:2,
-  img: "../public/city-2.png",
+  img: "/city-2.png",
   location: 'New Jersey, United State',
   explore: "12 Villas 7 Offices 1 Apartments"
 },
 {
   id:3,
-  img: "../public/city-3.png",
+  img: "/city-3.png",
   location: 'Liverpool, London',
   explore: "12 Villas 7 Offices"
 },
 {
   id:4,
-  img: "../public/city-4.png",
+  img: "/city-4.png",
   location: 'NewYork, United States',
   explore: "12 Villas 10 Apartments"
 },
 {
   id:5,
-  img: "../public/city-5.png",
+  img: "/city-5.png",
   location: 'Montreal, Canada',
   explore: "10 Apartments"
 },
 {
   id:6,
-  img: "../public/city-6.png",
+  img: "/city-6.png",
   location: 'California, USA',
   explore: " 30 Apartments"
 },

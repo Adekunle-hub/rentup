@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaHeart } from 'react-icons/fa'
 import { IoLocationSharp } from 'react-icons/io5'
-import Properties  from '../Properties.js'
+import Properties  from '../Properties.jsx'
 
 
 const Property = () => {

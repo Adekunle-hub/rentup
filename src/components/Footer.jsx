@@ -1,5 +1,5 @@
 import React from 'react'
-import whiteLogoImage from '../../public/logo-light (2).png'
+import whiteLogoImage from '/logo-light (2).png'
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
         <fieldset className='bg-[#1d2636] '>
         <section className=' flex sm:grid flex-wrap sm:grid-cols-2 sm:gap-[4rem] items-center sm:w-[90%] lg:w-[80%] justify-between w-[80%] mx-auto'>
           <article >
-            <img className="w-[20%] sm:w-[30%] text-white mt-[3rem] " src={whiteLogoImage} alt="logo-image"/>
+            <img className="w-[25%] sm:w-[30%] text-white mt-[3rem] " src={whiteLogoImage} alt="logo-image"/>
             <h2 className='text-white sm:text-2xl font-semibold'>Do You Need Help With Anything?</h2>
             <p className='text-gray-400 mt-[1rem]'>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
             <div className='flex items-center w-[80%] sm:w-[100%] sm:gap-3 gap-1 mt-[2rem]'>

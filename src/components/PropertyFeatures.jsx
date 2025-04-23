@@ -4,31 +4,31 @@ import React from 'react'
 const  PropertyFeatures = () => {
   const propertyTypes = [{
     id:1,
-    propertyImage:  "../../public/h1.png",
+    propertyImage:  "/h1.png",
     propertyText: "Family House",
     propertyContent: "122 Property"
   },
   {
     id:2,
-    propertyImage: "../../public/h2.png",
+    propertyImage: "/h2.png",
     propertyText: "House & Villa",
     propertyContent: "155 Property"
   },
   {
     id:3,
-    propertyImage: "../../public/h3.png",
+    propertyImage: "/h3.png",
     propertyText: "Apartment",
     propertyContent: "300 Property"
   },
   {
     id:4,
-    propertyImage: "../../public/h4.png",
+    propertyImage: "/h4.png",
     propertyText: "Office & Studio",
     propertyContent: "80 Property"
   },
   {
     id:5,
-    propertyImage:"../../public/h6.png",
+    propertyImage:"/h6.png",
     propertyText: "Villa & Condo",
     propertyContent: "80 Property"
   },

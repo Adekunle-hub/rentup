@@ -26,7 +26,7 @@ const Body = () => {
     
     <section className=" overflow-hidden relative h-[100dvh] bg-cover bg-center"
       style = {{
-      backgroundImage: `url("../../public/banner (2).png")`
+      backgroundImage: `url("/banner (2).png")`
       }}>
       <div className="absolute inset-0 flex flex-col  mt-[20dvh] sm:mt-[30dvh] items-center " >
         <h1 className='font-bold w-[90%]  sm:w-[60%]  md:w-[40%] xl:w-[37%] text-sm-20  text-center text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
