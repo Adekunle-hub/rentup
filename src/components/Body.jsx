@@ -24,7 +24,7 @@ const Body = () => {
 
    return (
     
-    <section className=" overflow-hidden relative h-[100dvh] bg-cover bg-center"
+    <section className=" overflow-hidden relative h-[auto] bg-cover bg-center"
       style = {{
       backgroundImage: `url("/banner (2).png")`
       }}>
