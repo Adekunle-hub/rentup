@@ -36,7 +36,7 @@ const Properties = [{
   usedFor: "For Sale",
   location:"5621 Liverpool, London",
   price: "7,540",
-  purpose:"Homes and villas",
+  purpose:"Homes & villas",
   checkSale: true
 },
 {

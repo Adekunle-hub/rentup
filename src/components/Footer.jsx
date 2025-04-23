@@ -15,19 +15,19 @@ const Footer = () => {
           </div>
         </main>
         <fieldset className='bg-[#1d2636] '>
-        <section className=' flex sm:grid flex-wrap sm:grid-cols-2 sm:gap-[4rem] items-center sm:w-[90%] lg:w-[80%] justify-between w-[80%] mx-auto'>
+        <section className=' flex sm:grid flex-wrap sm:flex-wrap-reverse sm:grid-cols-2 sm:gap-[4rem] items-center sm:w-[90%] lg:w-[80%] justify-between w-[80%] mx-auto'>
           <article >
-            <img className="w-[25%] sm:w-[30%] text-white mt-[3rem] " src={whiteLogoImage} alt="logo-image"/>
+            <img className="w-[25%] sm:w-[50%] text-white mt-[3rem] " src={whiteLogoImage} alt="logo-image"/>
             <h2 className='text-white sm:text-2xl font-semibold'>Do You Need Help With Anything?</h2>
             <p className='text-gray-400 mt-[1rem]'>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
             <div className='flex items-center w-[80%] sm:w-[100%] sm:gap-3 gap-1 mt-[2rem]'>
-              <input className='bg-white sm:px-4 px-2 py-2  rounded-md' placeholder='Email Address' />
-              <button className=' sm:px-4 px-2 py-2 rounded-md bg-[#27AE60] text-white'>Subscribe</button>
+              <input className='bg-white sm:px-7 px-2 py-2  rounded-md' placeholder='Email Address' />
+              <button className=' sm:px-7 px-2 py-2 rounded-md bg-[#27AE60] text-white'>Subscribe</button>
             </div>
           </article>
-          <article className='flex w-[100%] gap-[0.5rem] sm:justify-between sm:gap-[1.5rem] pb-[2rem] pt-[4rem] gap-y-[3rem] flex-col-3'>
-            <div className='flex flex-col'>
-              <h3 className='text-white text-sm  font-semibold mb-[1rem]'>LAYOUTS</h3>
+          <article className='flex flex-col sm:justify-end sm:flex-row w-[100%] sm:gap-[4rem] pb-[2rem] pt-[1rem] sm:pt-[4rem] gap-y-[1rem]'>
+            <div className='flex flex-col '>
+              <h3 className='text-white text-sm sm:text-lg font-semibold mb-[1rem]'>LAYOUTS</h3>
               <ul className='text-gray-400 sm:text-base text-sm flex flex-col gap-y-[1rem]'>
                 <li>Home Page</li>
                 <li>About Page</li>
@@ -37,8 +37,8 @@ const Footer = () => {
                 <li>Single Blog</li>
               </ul>
             </div>
-            <div className='flex items-center flex-col'>
-              <h3 className='text-white text-sm   font-semibold mb-[1rem]'>ALL SECTIONS</h3>
+            <div className='flex flex-col'>
+              <h3 className='text-white text-sm sm:text-lg  font-semibold mb-[1rem]'>ALL SECTIONS</h3>
               <ul className='text-gray-400 sm:text-base text-sm flex flex-col gap-y-[1rem]'>
                 <li> Headers</li>
                 <li> Features</li>
@@ -47,19 +47,6 @@ const Footer = () => {
                 <li>Videos</li>
                 <li>Footers</li>
               </ul>
-
-            </div>
-            <div className='flex items-center flex-col'>
-              <h3 className='text-white text-sm  font-semibold mb-[1rem]'>ALL SECTIONS</h3>
-              <ul className='text-gray-400 text-sm sm:text-base flex flex-col gap-y-[1rem]'>
-                <li> Headers</li>
-                <li> Features</li>
-                <li>Attractive</li>
-                <li>Testimonials</li>
-                <li>Videos</li>
-                <li>Footers</li>
-              </ul>
-
             </div>
           </article>
         </section>
