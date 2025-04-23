@@ -1,11 +1,10 @@
 import React from 'react'
-import propertyImage1 from '/h1.png'
 
 
 const  PropertyFeatures = () => {
   const propertyTypes = [{
     id:1,
-    propertyImage:  {propertyImage1},
+    propertyImage:  "/h1.png",
     propertyText: "Family House",
     propertyContent: "122 Property"
   },
