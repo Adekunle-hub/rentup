@@ -33,7 +33,7 @@ const Property = () => {
       <div className='bg-[#bec7d8]  w-full h-[1px] '></div>
         <div className='mx-auto w-[90%] sm:[95%] lg:[w-85%] sm:flex-col lg:flex-row flex flex-row justify-between py-4  items-center '>
             <div className='flex items-center'>
-              <button className=' px-8 py-4 lg:px-8 lg:py-4sm:py-2 sm:px-4 rounded-full font-semibold text-lg sm:text-xl text-white bg-[#27ae60]'>${property.price} </button><span> /sqft</span>
+              <button className=' px-4 py-2 lg:px-8 lg:py-4sm:py-2 sm:px-4 rounded-full font-semibold text-lg sm:text-xl text-white bg-[#27ae60]'>${property.price} </button><span> /sqft</span>
             </div>
             <p className='inline-block font-bold '>{property.purpose}</p>
         </div>

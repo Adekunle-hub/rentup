@@ -32,7 +32,7 @@ const Body = () => {
         <h1 className='font-bold w-[90%]  sm:w-[60%]  md:w-[40%] xl:w-[37%] text-sm-20  text-center text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
         <p className='text-white text-center text-base lg:text-xl  mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
 
-        <fieldset className='bg-white w-[80vw] max-h-[40%] rounded-sm sm:rounded-lg  p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1 absolute bottom-0'>
+        <fieldset className='bg-white w-[80vw]  rounded-sm sm:rounded-lg mt-[10vh] p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1 absolute bottom-0'>
           {placeHolders.map((detail)=>{
              return (<form key={detail.id} >
              <div className=' min-w-[100%] '>
