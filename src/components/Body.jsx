@@ -28,18 +28,17 @@ const Body = () => {
       style = {{
       backgroundImage: `url("/banner (2).png")`
       }}>
-      <div className="absolute inset-0 flex flex-col  mt-[20dvh] sm:mt-[30dvh] items-center " >
+      <div className="absolute inset-0 flex flex-col mt-[20dvh] sm:mt-[30dvh] items-center " >
         <h1 className='font-bold w-[90%]  sm:w-[60%]  md:w-[40%] xl:w-[37%] text-sm-20  text-center text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
-        <p className='text-white text-center text-base lg:text-xl mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
+        <p className='text-white text-center text-base lg:text-xl  mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
 
-        <fieldset className='bg-white w-[80vw] rounded-sm sm:rounded-lg  p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1  absolute bottom-0 '>
-          
+        <fieldset className=' w-[80vw] max-h-[40%] rounded-sm sm:rounded-lg  p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1 absolute bottom-0'>
           {placeHolders.map((detail)=>{
              return (<form key={detail.id} >
              <div className=' min-w-[100%] '>
                <label >
-                 <p className='mb-3 lg:text-lg text-sm text-grey '>{detail.label}</p>
-                 <input className='border-1 border-grey-400 w-[100%] border-opacity-20  px-2 py-1' type='text' placeholder={detail.placeholder} />
+                 <p className='mb-2 lg:text-lg text-xstext-grey '>{detail.label}</p>
+                 <input className='border-1 border-gray-300 w-[100%] border-opacity-20  px-2 py-1' type='text' placeholder={detail.placeholder} />
                </label>
              </div>
              </form> )})}

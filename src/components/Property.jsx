@@ -31,11 +31,11 @@ const Property = () => {
             <div className='text-[#72809d]'>  <IoLocationSharp className='inline-block'/> <p className='underline sm:no-underline decoration-dotted decoration-[#bec7d8] inline-block'>{property.location}</p></div>
         </div>
       <div className='bg-[#bec7d8]  w-full h-[1px] '></div>
-        <div className='mx-auto w-[85%] sm:[95%] lg:[w-85%] sm:flex-col lg:flex-row flex flex-row justify-between py-4  items-center '>
+        <div className='mx-auto w-[90%] sm:[95%] lg:[w-85%] sm:flex-col lg:flex-row flex flex-row justify-between py-4  items-center '>
             <div className='flex items-center'>
               <button className=' px-8 py-4 lg:px-8 lg:py-4sm:py-2 sm:px-4 rounded-full font-semibold text-lg sm:text-xl text-white bg-[#27ae60]'>${property.price} </button><span> /sqft</span>
             </div>
-            <p className='inline-block font-semibold '>{property.purpose}</p>
+            <p className='inline-block font-bold '>{property.purpose}</p>
         </div>
         </div>)
         })}

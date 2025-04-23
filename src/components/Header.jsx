@@ -7,7 +7,7 @@ const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <header header className="text-black  font-medium fixed z-10 w-full ">
+    <header header className="text-black  font-medium fixed z-10 w-[100vw] ">
       <section className=" mx-auto w-[100%] lg:w-[90%] bg-white px-1 pr-[2rem] sm:px-2 lg:px-3 flex flex-wrap items-center justify-between py-4">
         <div className='ml-10 w-[25%] sm:w-[17%] '>
           <img className="w-[90%]" src={headerLogo} alt="logo-image"/>

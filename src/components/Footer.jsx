@@ -20,7 +20,7 @@ const Footer = () => {
             <img className="w-[25%] sm:w-[50%] text-white mt-[3rem] " src={whiteLogoImage} alt="logo-image"/>
             <h2 className='text-white sm:text-2xl font-semibold'>Do You Need Help With Anything?</h2>
             <p className='text-gray-400 mt-[1rem]'>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
-            <div className='flex items-center w-[80%] sm:w-[100%] sm:gap-3 gap-1 mt-[2rem]'>
+            <div className='flex items-center w-[70%] sm:w-[100%] sm:gap-3 gap-1 mt-[2rem]'>
               <input className='bg-white sm:px-7 px-2 py-2  rounded-md' placeholder='Email Address' />
               <button className=' sm:px-7 px-2 py-2 rounded-md bg-[#27AE60] text-white'>Subscribe</button>
             </div>
