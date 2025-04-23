@@ -29,7 +29,7 @@ const Body = () => {
       backgroundImage: `url("/banner (2).png")`
       }}>
 
-      <div className="inset-0 absolute top-[20%] gap-[1rem] " >
+      <div className="inset-0 absolute flex items-center justify-center top-[20%] gap-[1rem] " >
         <h1 className='font-bold w-[90%]  sm:w-[60%]  md:w-[40%] xl:w-[37%] text-sm-20  text-center text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
         <p className='text-white text-center text-base lg:text-xl  mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
       </div>
