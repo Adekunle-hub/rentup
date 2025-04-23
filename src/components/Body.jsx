@@ -34,12 +34,12 @@ const Body = () => {
         <p className='text-white text-center text-base lg:text-xl  mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
       </div>
 
-        <fieldset className='bg-white w-[80vw]  rounded-sm sm:rounded-lg mt-[10vh] p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1 absolute bottom-0'>
+        <fieldset className='bg-white w-[80vw]  rounded-sm sm:rounded-lg  p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1 absolute bottom-0'>
           {placeHolders.map((detail)=>{
              return (<form key={detail.id} >
              <div className=' min-w-[100%] '>
                <label >
-                 <p className='mb-2 lg:text-lg text-xstext-grey '>{detail.label}</p>
+                 <p className=' lg:text-lg text-xstext-grey '>{detail.label}</p>
                  <input className='border-1 border-gray-300 w-[100%] border-opacity-20  px-2 py-1' type='text' placeholder={detail.placeholder} />
                </label>
              </div>
