@@ -39,7 +39,7 @@ const Body = () => {
              return (<form key={detail.id} >
              <div className=' min-w-[100%] '>
                <label >
-                 <p className='mb-2 lg:text-lg text-xstext-grey '>{detail.label}</p>
+                 <p className='lg:text-lg text-xstext-grey '>{detail.label}</p>
                  <input className='border-1 border-gray-300 w-[100%] border-opacity-20  px-2 py-1' type='text' placeholder={detail.placeholder} />
                </label>
              </div>

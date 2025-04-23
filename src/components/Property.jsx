@@ -18,7 +18,7 @@ const Property = () => {
            <div key={property.id}  className='shadow-2xl my-[1rem]'>
           <img className='' src={property.img} />
           <div className='pt-[2rem] flex  justify-between items-center mx-auto ] w-[80%]'>
-            <p className={`font-semibold py-1 px-1 sm:px-3 text-sm
+            <p className={`font-semibold py-1 px-3 sm:px-3 text-sm
              ${property.checkSale 
               ? "bg-[rgba(37,181,121,0.1)] text-[#25B579]"
               : "bg-[rgba(255,152,0,0.1)] text-[#ff9800]"}`}>
