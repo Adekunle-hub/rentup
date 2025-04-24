@@ -24,7 +24,7 @@ const Body = () => {
 
    return (
     
-    <section className="overflow-hidden relative flex flex-col justify-center items-center relative min-h-[120dvh] bg-cover bg-center"
+    <section className="overflow-hidden relative flex flex-col justify-center items-center min-h-[120dvh] bg-cover bg-center"
       style = {{
       backgroundImage: `url("/banner (2).png")`
       }}>
@@ -32,7 +32,7 @@ const Body = () => {
       <section className=' flex  mx-auto flex-col items-center gap-y-[10vh] justify-center'>
         <fieldset className="flex justify-center text-center sm:w-[60%] mt-2rem w-[100%] mx-auto items-center  flex-col" >
           <h1 className='font-bold w-[110%] text-sm-20  text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
-          <p className='text-white w-[130%] text-base lg:text-xl  mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
+          <p className='text-white w-[100%] text-base lg:text-xl  mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
         </fieldset>
         <fieldset className='bg-white w-[80vw] items-center justify-center rounded-sm sm:rounded-lg mt-[10vh] p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1 absolute bottom-0'>
           {placeHolders.map((detail)=>{
