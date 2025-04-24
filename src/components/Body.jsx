@@ -32,7 +32,7 @@ const Body = () => {
       
       <section className=' flex mx-auto w-[80%] flex-col items-center gap-y-[10vh] justify-between'>
         <fieldset className="flex justify-center text-center sm:w-[60%] mt-2rem w-[100%] mx-auto items-center  flex-col" >
-          <h1 className='font-bold text-sm-20 text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
+          <h1 className='font-bold w-[110%] text-sm-20 pt-[2.5rem] text-white text-6xl'>Search Your Next <span className=' mt-4 sm:mt-8 inline-block text-amber-300'>Home</span></h1>
           <p className='text-white w-[130%] text-base lg:text-xl  mb-3  px-2.5 mt-4 sm:mt-8 opacity-80'> Find new & featured property located in your local city.</p>
         </fieldset>
         <fieldset className='bg-white w-[80vw] items-center justify-center rounded-sm sm:rounded-lg mt-[10vh] p-4 gap-0.5 sm:gap-4 grid grid-rows-4  sm:grid-cols-4 sm:grid-rows-1 '>
